@@ -1,0 +1,45 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+#pojemnik
+    {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #logo
+    {
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 1px;
+    }
+    #nawigacja
+    {
+        float:left;
+        width: 120px;
+        min-height:620px;
+        padding: 10px;
+    }
+    #glowne
+    {
+        float:left;
+        background-color: antiquewhite;
+        padding: 20px;
+        width: 640px;
+
+    }
+    #kilkaSlow
+    {
+        float:left;
+        width: 160px;
+        min-height: 620px;
+        padding:10px;
+
+    }
+    #stopka
+    {
+        clear:both;
+        text-align: center;
+    }
