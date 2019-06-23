@@ -1,6 +1,6 @@
     body
     {
-        font-family: 'Poiret One', cursive;
+        font-family: 'Questrial', sans-serif;
 
     }
     #pojemnik
@@ -11,7 +11,8 @@
     }
     #logo
     {
-        font-family: 'Nothing You Could Do', cursive;
+        font-size:100px;
+        font-family: 'Dawning of a New Day', cursive;
         background-color: white;
         color: black;
         text-align: center;
@@ -46,8 +47,11 @@
 
     #stopka
     {
+        font-size:20px;
+        color:#6b6b6b;
         clear:both;
         text-align: center;
+        padding:10px;
         border-top: 1px solid transparent;
         border-image: radial-gradient( #ee4c5f 0%, #fdf7f7 100%);
         border-image-slice: 1
@@ -86,4 +90,8 @@
     {
         cursor: pointer; 
         opacity: 0.9;
+    }
+    .stopka:hover 
+    {
+        cursor:pointer;
     }
