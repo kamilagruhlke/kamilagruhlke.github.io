@@ -5,7 +5,6 @@
     }
     #pojemnik
     {
-        width: 1000px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -38,10 +37,21 @@
     {
         margin-top: 10px;
         padding: 0;
-        width: 1000px;
         height: auto;
         padding:0;
         
+    }
+
+    @media(min-width: 1000px)
+    {
+        #pojemnik
+        {
+            width: 1000px;
+        }
+        #glowne
+        {
+            width: 1000px;
+        }
     }
 
     #stopka
@@ -77,7 +87,8 @@
     .galeria-pojemnik
     {
         padding: 10px;
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto auto;
         align-items: center;
     }
     .galeria-zdjecie
