@@ -40,9 +40,8 @@
         padding: 0;
         width: 1000px;
         height: auto;
-        display: flex;
-        flex-wrap: wrap;
         padding:0;
+        
     }
 
     #stopka
@@ -54,7 +53,8 @@
         padding:10px;
         border-top: 1px solid transparent;
         border-image: radial-gradient( #ee4c5f 0%, #fdf7f7 100%);
-        border-image-slice: 1
+        border-image-slice: 1;
+        margin-top: 10px;
     }
     .option
     {
@@ -95,3 +95,4 @@
     {
         cursor:pointer;
     }
+
