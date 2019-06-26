@@ -12,7 +12,31 @@
     <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
     <style>
-
+        form 
+        {
+            width: 340px;
+            margin: 50px auto;
+            padding: 10px;
+            background-color:rgb(255, 249, 250);
+            border: 30px;
+        }
+        label
+        {
+            display: inline-block;
+            width: 100px;
+            margin-top: 10px;
+        }
+        #przycisk
+        {
+            text-align: center;
+        }
+        textarea
+        {
+            max-width: 310px;
+            max-height: 300px;
+            min-width: 310px;
+            min-height: 300px;
+        }
     </style>
 </head>
 <body>
@@ -27,6 +51,59 @@
     </ul>
 
     <div id="glowne">
+            <form action="" method="POST">
+
+            <div class="przerwa">
+                <div>
+                    <label><input type="radio" name="płeć" checked> Pan</label>
+                    <label><input type="radio" name="płeć"> Pani</label>
+                </div>
+            </div>
+
+            <div class="przerwa">
+                <div>
+                    <label>Imię: <input type="text" name="imię"></label>
+                </div>
+            </div>
+
+            <div class="przerwa">
+                <div>
+                    <label>Nazwisko: <input type="text" name="nazwisko""</label>
+                </div>
+            </div>
+
+            <div class="przerwa">
+                <div>
+                    <label for="Gość">Jako: </label>
+                    <select name="lista" id="lista">
+                        <option value="Follower">Follower</option>
+                        <option value="Klient">Klient</option>
+                        <option value="Gość">Gość</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <label><input type="checkbox" name="powód">E-mail</label>
+            <label><input type="checkbox" name="powód">Oferta</label>
+            <label><input type="checkbox" name="powód">Zgłoszenie</label>
+
+
+
+            <div class="przerwa">
+                <div> 
+                        <label for="Pole tekstowe"></label>
+                        <textarea name="wiadomość" placeholder="Napisz kilka zdań..."></textarea>
+                </div>
+            </div>
+
+
+            <div class="przerwa">
+                <div id="przycisk">
+                    <input type="submit" value="Wyślij">
+                </div>
+            </div>
+                </form>
     </div>
 
     <div id="stopka">
